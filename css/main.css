@@ -1,1 +1,85 @@
-/*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Monsieur+La+Doulaise&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Poppins", serif;
+  background-image: url(../img/bg.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 75vmax;
+}
+
+header .custom-nav #navbarNavAltMarkup {
+  margin-left: -2.2em;
+}
+header .custom-nav #navbarNavAltMarkup .nav-link {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 15px;
+  transition: 0.5s;
+}
+header .custom-nav #navbarNavAltMarkup .nav-link:hover {
+  color: #F68619;
+}
+header .custom-nav .navbar-brand {
+  font-size: 2.3em;
+  font-style: italic;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-right: -10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+@media screen and (max-width: 992px) {
+  header {
+    margin-top: -1.5em;
+  }
+}
+
+main {
+  margin-top: 3.5em;
+}
+main h1 {
+  font-size: 5em;
+  text-transform: capitalize;
+  font-weight: 600;
+  letter-spacing: 10px;
+  color: #163554;
+  line-height: 0.95em;
+  margin-bottom: 0.5em;
+}
+main h1 span {
+  color: #F68619;
+}
+main p {
+  font-size: 1.2em;
+  letter-spacing: 0.07em;
+  font-weight: 300;
+  margin-bottom: 2em;
+}
+main .tombol {
+  display: inline-block;
+  text-decoration: none;
+  background: linear-gradient(to left, #1E4768, #3377B6);
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-style: italic;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  border-radius: 10em;
+  transition: 0.5s;
+}
+main .tombol:hover {
+  background: linear-gradient(to right, #1E4768, #3377B6);
+  transform: scale(1.05);
+}
+main .sosmed {
+  margin-top: 2em;
+}
+main .sosmed .bi {
+  font-size: 2em;
+  color: #214e7d;
+  margin-right: 1rem;
+}/*# sourceMappingURL=main.css.map */
